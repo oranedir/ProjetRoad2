@@ -1,0 +1,41 @@
+nav{
+    background-color: #007bff;
+    clear: both;
+}
+nav a {
+    color: white;
+}
+#login{
+    background-color: rgba(255, 255, 255, 0.9);
+    float: right;
+    border: 1px #007bff solid;
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+    text-align: right;
+}
+header {
+    background-image: url("img/082.jpg");
+    background-position: center;
+    width: 100%;
+}
+.btn {
+    background-color: white;
+}
+::placeholder {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: #cccccc;
+}
+input:focus {
+    border-color: #bfc8d0;
+    background-color: #eff7ff;
+}
+.row{
+    margin-top: 20px;
+}
+.list-group-item.list-group-item-action {
+    margin-top: 5px;
+}
+.list-group-item.list-group-item-action:hover {
+    background-color: #eff7ff;
+}
